@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>INSERTAR DATOS</title>
+</head>
+
+<body>
+<table width="800" border="1" align="center">
+	<form id="form1" name="form1" method="GET" action="guardar.php">		
+	
+	  <tr>
+	    <td width="77">FECHA</td>
+	    <td width="135">PROVINCIA</td>
+	    <td width="100">ENTRADA</td>
+	    <td width="76">SALIDA</td>
+	    <td width="132">OBRA</td>
+	    <td width="239">DIA DE LA SEMANA</td>
+      </tr>
+	  <tr>
+	    <td><input type="date" name="fecha" id="fecha"></td>
+	    <td><input name="provincia" type="text" id="provincia" value="MADRID"></td>
+        <td><input name="entrada" type="Time" id="entrada" value="08:00"></td>
+        <td><input name="salida" type="Time" id="salida" required></td>
+        <td><input type="text" name="obra" id="obra" required></td>
+        <td><input type="numer" name="dsemana" id="dsemana" required></td>
+        <td><input type="submit" name="button" value="Enviar"></td>
+	  </tr>
+	</form>
+</table>	
+	<!--<form id="form1" name="form1" method="GET" action="guardar.php">
+	  <p><label>FECHA:<input type="date" name="fecha" id="fecha"></label></p>
+	  <p><label>PROVINCIA:<input type="text" name="provincia" id="provincia"></label></p>
+	  <p><label>ENTRADA:<input type="Time" name="entrada" id="entrada"></label></p>
+	  <p><label>SALIDA:<input type="Time" name="salida" id="salida"></label></p>
+	  <p><label>OBRA:<input type="text" name="obra" id="obra"></label></p>
+	  <p><label>DIA DE LA SEMANA:<input type="number" name="dsemana" id="dsemana"></label></p>
+	  <p><input type="submit" name="button"	id="button" value="Enviar"></p>
+	</form> -->
+	
+</body>
+</html>
